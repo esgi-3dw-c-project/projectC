@@ -30,27 +30,27 @@ void getInput(void)
 						input.erase = 1;
 					break;
 
-					case SDLK_c:
+					case SDLK_SPACE:
 						input.jump = 1;
                     break;
 
-                  	case SDLK_v:
+                  	case SDLK_q:
 						input.attack = 1;
                     break;
 
-					case SDLK_LEFT:
+					case SDLK_a:
 						input.left = 1;
 					break;
 
-					case SDLK_RIGHT:
+					case SDLK_d:
 						input.right = 1;
 					break;
 
-					case SDLK_DOWN:
+					case SDLK_s:
 						input.down = 1;
 					break;
 
-					case SDLK_UP:
+					case SDLK_z:
 						input.up = 1;
 					break;
 
@@ -72,23 +72,23 @@ void getInput(void)
 						input.erase = 0;
 					break;
 
-                    case SDLK_c:
+                    case SDLK_SPACE:
 						input.jump = 0;
                     break;
 
-					case SDLK_LEFT:
+					case SDLK_a:
 						input.left = 0;
 					break;
 
-					case SDLK_RIGHT:
+					case SDLK_d:
 						input.right = 0;
 					break;
 
-					case SDLK_DOWN:
+					case SDLK_s:
 						input.down = 0;
 					break;
 
-					case SDLK_UP:
+					case SDLK_z:
 						input.up = 0;
 					break;
 

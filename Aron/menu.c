@@ -56,39 +56,32 @@ void drawStartMenu(void)
     char text[200];
 
     //Le titre
-    sprintf(text, "La vengeance du lapin ninja");
-    drawString(text, 110, 50, font);
+    sprintf(text, "The Mystic Forest");
+    drawString(text, 260, 50, font);
 
     //Si l'option n'est pas en surbrillance, on l'affiche normalement, sinon on rajoute ">"
     if(jeu.choice != 0)
     {
-        sprintf(text, "START");
+        sprintf(text, "DEMARRER");
         drawString(text, 273, 200, font);
     }
     if(jeu.choice != 1)
     {
-        sprintf(text, "QUIT");
+        sprintf(text, "QUITTER");
         drawString(text, 273, 280, font);
     }
 
      //Si l'option est en surbrillance, on rajoute ">"
     if(jeu.choice == 0)
     {
-        sprintf(text, "> START");
+        sprintf(text, "> DEMARRER");
         drawString(text, 250, 200, font);
     }
     else if(jeu.choice == 1)
     {
-        sprintf(text, "> QUIT");
+        sprintf(text, "> QUITTER");
         drawString(text, 250, 280, font);
     }
-
-    //Le nom du studio
-    sprintf(text, "");
-    drawString(text, 120, 420, font);
-
-
-
 }
 
 
