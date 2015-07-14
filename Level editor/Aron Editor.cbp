@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Aron Editor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Editor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="0" />
+				<Option projectIncludeDirsRelation="0" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/SDL-1.2.14/include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\SDL-1.2.14\lib\libfmod.a" />
+					<Add library="C:\SDL-1.2.14\lib\libSDL.dll.a" />
+					<Add library="C:\SDL-1.2.14\lib\libSDLmain.a" />
+					<Add library="C:\SDL-1.2.14\lib\SDL_image.lib" />
+					<Add library="C:\SDL-1.2.14\lib\SDL_mixer.lib" />
+					<Add library="C:\SDL-1.2.14\lib\SDL_ttf.lib" />
+					<Add library="mingw32" />
+					<Add library="SDLmain" />
+					<Add library="SDL.dll" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winmm" />
+					<Add library="dxguid" />
+					<Add directory="C:/SDL-1.2.14/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Editor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="0" />
+				<Option projectIncludeDirsRelation="0" />
+				<Option projectLibDirsRelation="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/SDL-1.2.14/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:\SDL-1.2.14\lib\libfmod.a" />
+					<Add library="C:\SDL-1.2.14\lib\libSDL.dll.a" />
+					<Add library="C:\SDL-1.2.14\lib\libSDLmain.a" />
+					<Add library="C:\SDL-1.2.14\lib\SDL_image.lib" />
+					<Add library="C:\SDL-1.2.14\lib\SDL_mixer.lib" />
+					<Add library="C:\SDL-1.2.14\lib\SDL_ttf.lib" />
+					<Add library="mingw32" />
+					<Add library="SDLmain" />
+					<Add library="SDL.dll" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winmm" />
+					<Add library="dxguid" />
+					<Add directory="C:/SDL-1.2.14/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/SDL-1.2.14/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="C:\SDL-1.2.14\lib\libfmod.a" />
+			<Add library="C:\SDL-1.2.14\lib\libSDL.dll.a" />
+			<Add library="C:\SDL-1.2.14\lib\libSDLmain.a" />
+			<Add library="C:\SDL-1.2.14\lib\SDL_image.lib" />
+			<Add library="C:\SDL-1.2.14\lib\SDL_mixer.lib" />
+			<Add library="C:\SDL-1.2.14\lib\SDL_ttf.lib" />
+			<Add directory="C:/SDL-1.2.14/lib" />
+		</Linker>
+		<Unit filename="defs.h" />
+		<Unit filename="draw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="draw.h" />
+		<Unit filename="font.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="font.h" />
+		<Unit filename="init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="init.h" />
+		<Unit filename="input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="input.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="map.h" />
+		<Unit filename="structs.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
