@@ -99,7 +99,8 @@ enum
 enum
 {
 	START,
-	PAUSE
+	PAUSE,
+	PLAYER
 };
 
 

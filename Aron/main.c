@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	init("Aron");
 
 	/* On initialise le joueur */
-	initializePlayer();
+	initializePlayer(1);
 
 	/* Chargement des ressources (graphismes, sons) */
 	loadGame();
@@ -24,6 +24,7 @@ int main(int argc, char *argv[])
 
 
 	/* Boucle infinie, principale, du jeu */
+
 
 	while (go == 1)
 	{
@@ -45,6 +46,8 @@ int main(int argc, char *argv[])
                 updateStartMenu();
             else if(jeu.menuType == PAUSE)
                 updatePauseMenu();
+            else if(jeu.menuType == PLAYER)
+                updatePlayerMenu();
         }
 
 
@@ -80,6 +83,13 @@ int main(int argc, char *argv[])
                 SDL_Flip(jeu.screen);
                 SDL_Delay(1);
             }
+            else if(jeu.menuType == PLAYER)
+            {
+                drawImage(map.background, 0, 0);
+                drawPlayerMenu();
+                SDL_Flip(jeu.screen);
+                SDL_Delay(1);
+            }
 
         }
 
@@ -88,7 +98,6 @@ int main(int argc, char *argv[])
 		delay(frameLimit);
 		frameLimit = SDL_GetTicks() + 16;
 	}
-
 	/* Exit */
 	exit(0);
 }

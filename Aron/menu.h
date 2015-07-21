@@ -9,7 +9,7 @@ extern GameObject player;
 
 extern void drawString(char *text, int x, int y, TTF_Font *font);
 extern void changeLevel(void);
-extern void initializePlayer(void);
+extern void initializePlayer(int playerNumber);
 
 
 

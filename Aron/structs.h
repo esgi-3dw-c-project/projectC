@@ -18,6 +18,7 @@ typedef struct Gestion
 {
 
     int level;
+    int plyaerNumber;
     SDL_Surface *screen;
     int nombreMonstres;
     int nombreFireballs;
@@ -76,8 +77,12 @@ typedef struct GameObject
 	//Points de vie/santé
 	int life, invincibleTimer;
 
+    int playerNumber;
 	/* Coordonnées du héros */
 	int x, y;
+	int x1, y1;
+	int x2, y2;
+	int x3, y3;
 	/* Largeur, hauteur du sprite */
 	int h, w;
 

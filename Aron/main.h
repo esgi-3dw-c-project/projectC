@@ -11,7 +11,7 @@ extern void draw(void);
 extern void loadGame(void);
 extern void delay(unsigned int frameLimit);
 extern void updatePlayer(void);
-extern void initializePlayer(void);
+extern void initializePlayer(int playerNumber);
 extern void updateMonsters(void);
 extern void drawStartMenu(void);
 extern void updateStartMenu(void);

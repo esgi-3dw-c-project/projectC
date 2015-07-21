@@ -2,10 +2,12 @@
 #include "player.h"
 
 
-void initializePlayer(void)
+void initializePlayer(int playerNumber)
 {
     //PV à 3
     player.life = 3;
+
+    player.playerNumber = playerNumber;
 
     //Timer d'invincibilité à 0
     player.invincibleTimer = 0;
@@ -17,7 +19,21 @@ void initializePlayer(void)
     jeu.nombrePlateformes = 0;
 
     /* Charge le sprite de notre héros */
-    changeAnimation(&player, "graphics/walkright.png");
+    if(playerNumber == 1)
+    {
+        changeAnimation(&player, "graphics/walkright.png");
+    } else if(playerNumber == 2)
+    {
+        changeAnimation(&player, "graphics/walkright2.png");
+    } else if(playerNumber == 3)
+    {
+        changeAnimation(&player, "graphics/walkright3.png");
+    } else
+    {
+        changeAnimation(&player, "graphics/walkright4.png");
+    }
+
+    //changeAnimation(&player, "graphics/walkright.png");
 
     //Indique l'état et la direction de notre héros
     player.direction = RIGHT;
@@ -101,7 +117,19 @@ void updatePlayer(void)
 		if(player.etat != WALK_RIGHT && player.onGround == 1)
 		{
 		    player.etat = WALK_RIGHT;
-		    changeAnimation(&player, "graphics/walkright.png");
+            if(player.playerNumber == 1)
+            {
+                changeAnimation(&player, "graphics/walkright.png");
+            } else if(player.playerNumber == 2)
+            {
+                changeAnimation(&player, "graphics/walkright2.png");
+            } else if(player.playerNumber == 3)
+            {
+                changeAnimation(&player, "graphics/walkright3.png");
+            } else
+            {
+                changeAnimation(&player, "graphics/walkright4.png");
+            }
 		}
     }
 
@@ -209,15 +237,17 @@ void updatePlayer(void)
 		if (player.timerMort == 0)
 		{
 			/* Si on est mort */
-			jeu.vies--;
-			if(jeu.vies < 0)
+			//jeu.vies++;
+			player.playerNumber++;
+			if(jeu.vies == 4)
 			{
+			    player.playerNumber = 1;
 			    //On retourne au menu start
                 jeu.onMenu = 1;
                 jeu.menuType = START;
 			}
-			initializePlayer();
-			changeLevel();
+            jeu.onMenu = 1;
+            jeu.menuType = PLAYER;
 		}
 	}
 

@@ -1,0 +1,798 @@
+# depslib dependency file v1.0
+1289471271 source:z:\aron project\level editor\init.c
+	"init.h"
+
+1289142959 z:\aron project\level editor\init.h
+	"structs.h"
+
+1289474126 z:\aron project\level editor\structs.h
+	"defs.h"
+
+1289485325 z:\aron project\level editor\defs.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_platform.h
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\begin_code.h
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\close_code.h
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_keysym.h
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1199052374 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1227473390 c:\program files (x86)\codeblocks\sdl-1.2.13\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1289482874 source:z:\aron project\level editor\input.c
+	"input.h"
+
+1289475296 z:\aron project\level editor\input.h
+	"structs.h"
+
+1289469010 source:z:\aron project\level editor\main.c
+	"main.h"
+
+1289474126 z:\aron project\level editor\main.h
+	"structs.h"
+
+1289485231 source:z:\aron project\level editor\map.c
+	"map.h"
+
+1289485634 z:\aron project\level editor\map.h
+	"structs.h"
+
+1289144184 source:z:\aron project\level editor\draw.c
+	"draw.h"
+
+1289142877 z:\aron project\level editor\draw.h
+	"structs.h"
+
+1319645545 source:e:\programmation\aron project\level editor\init.c
+	"init.h"
+
+1289146560 e:\programmation\aron project\level editor\init.h
+	"structs.h"
+
+1319646883 e:\programmation\aron project\level editor\structs.h
+	"defs.h"
+
+1319646883 e:\programmation\aron project\level editor\defs.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1319647888 source:e:\programmation\aron project\level editor\input.c
+	"input.h"
+
+1319647130 e:\programmation\aron project\level editor\input.h
+	"structs.h"
+
+1289472612 source:e:\programmation\aron project\level editor\main.c
+	"main.h"
+
+1289477728 e:\programmation\aron project\level editor\main.h
+	"structs.h"
+
+1289488832 source:e:\programmation\aron project\level editor\map.c
+	"map.h"
+
+1289489236 e:\programmation\aron project\level editor\map.h
+	"structs.h"
+
+1289147786 source:e:\programmation\aron project\level editor\draw.c
+	"draw.h"
+
+1289146478 e:\programmation\aron project\level editor\draw.h
+	"structs.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255804064 c:\sdl-1.2.14\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_platform.h
+
+1255804050 c:\sdl-1.2.14\include\sdl\begin_code.h
+
+1255804050 c:\sdl-1.2.14\include\sdl\close_code.h
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_keysym.h
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\sdl-1.2.14\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1227476990 c:\sdl-1.2.14\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1319645545 source:e:\programmation 2\tuto aron 2\level editor\init.c
+	"init.h"
+
+1289142960 e:\programmation 2\tuto aron 2\level editor\init.h
+	"structs.h"
+
+1353338047 e:\programmation 2\tuto aron 2\level editor\structs.h
+	"defs.h"
+
+1354111658 e:\programmation 2\tuto aron 2\level editor\defs.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1319647888 source:e:\programmation 2\tuto aron 2\level editor\input.c
+	"input.h"
+
+1319647130 e:\programmation 2\tuto aron 2\level editor\input.h
+	"structs.h"
+
+1289469012 source:e:\programmation 2\tuto aron 2\level editor\main.c
+	"main.h"
+
+1289474128 e:\programmation 2\tuto aron 2\level editor\main.h
+	"structs.h"
+
+1353340963 source:e:\programmation 2\tuto aron 2\level editor\map.c
+	"map.h"
+
+1289485636 e:\programmation 2\tuto aron 2\level editor\map.h
+	"structs.h"
+
+1289144186 source:e:\programmation 2\tuto aron 2\level editor\draw.c
+	"draw.h"
+
+1289142878 e:\programmation 2\tuto aron 2\level editor\draw.h
+	"structs.h"
+
+1375830293 source:c:\programmation 2\tuto aron 2\level editor\draw.c
+	"draw.h"
+
+1375830085 c:\programmation 2\tuto aron 2\level editor\draw.h
+	"structs.h"
+
+1375441904 c:\programmation 2\tuto aron 2\level editor\structs.h
+	"defs.h"
+
+1375826650 c:\programmation 2\tuto aron 2\level editor\defs.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1375828240 source:c:\programmation 2\tuto aron 2\level editor\init.c
+	"init.h"
+
+1375829294 c:\programmation 2\tuto aron 2\level editor\init.h
+	"structs.h"
+
+1375823848 source:c:\programmation 2\tuto aron 2\level editor\input.c
+	"input.h"
+
+1319650730 c:\programmation 2\tuto aron 2\level editor\input.h
+	"structs.h"
+
+1375473126 source:c:\programmation 2\tuto aron 2\level editor\main.c
+	"main.h"
+
+1375827463 c:\programmation 2\tuto aron 2\level editor\main.h
+	"structs.h"
+
+1375824617 source:c:\programmation 2\tuto aron 2\level editor\map.c
+	"map.h"
+
+1375473965 c:\programmation 2\tuto aron 2\level editor\map.h
+	"structs.h"
+
+1315001256 c:\sdl-1.2.14\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1375829295 source:c:\programmation 2\tuto aron 2\level editor\font.c
+	"font.h"
+
+1375829295 c:\programmation 2\tuto aron 2\level editor\font.h
+	"structs.h"
+
+1375830293 source:d:\developpment\c\projectc\editor\draw.c
+	"draw.h"
+
+1375830085 d:\developpment\c\projectc\editor\draw.h
+	"structs.h"
+
+1375441904 d:\developpment\c\projectc\editor\structs.h
+	"defs.h"
+
+1375826650 d:\developpment\c\projectc\editor\defs.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1325742239 c:\sdl\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326114587 c:\sdl\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325742239 c:\sdl\include\sdl\sdl_platform.h
+
+1326114594 c:\sdl\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326114600 c:\sdl\include\sdl\begin_code.h
+
+1325742239 c:\sdl\include\sdl\close_code.h
+
+1325742239 c:\sdl\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_keysym.h
+
+1325742239 c:\sdl\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325742239 c:\sdl\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1258249878 c:\sdl\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325796794 c:\sdl\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1375829295 source:d:\developpment\c\projectc\editor\font.c
+	"font.h"
+
+1375829295 d:\developpment\c\projectc\editor\font.h
+	"structs.h"
+
+1375828240 source:d:\developpment\c\projectc\editor\init.c
+	"init.h"
+
+1375829294 d:\developpment\c\projectc\editor\init.h
+	"structs.h"
+
+1375823848 source:d:\developpment\c\projectc\editor\input.c
+	"input.h"
+
+1319650730 d:\developpment\c\projectc\editor\input.h
+	"structs.h"
+
+1375473126 source:d:\developpment\c\projectc\editor\main.c
+	"main.h"
+
+1375827463 d:\developpment\c\projectc\editor\main.h
+	"structs.h"
+
+1375824617 source:d:\developpment\c\projectc\editor\map.c
+	"map.h"
+
+1375473965 d:\developpment\c\projectc\editor\map.h
+	"structs.h"
+

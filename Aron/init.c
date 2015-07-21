@@ -24,7 +24,7 @@ void init(char *title)
 
 
 	/* Cache le curseur de la souris */
-	SDL_ShowCursor(SDL_DISABLE);
+	//SDL_ShowCursor(SDL_DISABLE);
 
 
 	/* Initialise SDL_TTF */
